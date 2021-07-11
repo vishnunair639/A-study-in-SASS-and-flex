@@ -1,0 +1,29 @@
+@mixin flex{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    align-items:center;
+}
+header{
+    @include flex();
+    height:10vh;
+    margin:auto;
+    background: $primaryColor;
+    .nav-items {
+       width:100px;
+       height:30px;
+       border: 2px solid $borderColor;
+       text-align:center;
+       margin:auto;
+    }
+    .btn {
+        width:100px;
+        height:30px;
+        border-radius: 50px;
+        background: $buttonColor;
+        &:hover {
+            zoom:200%;
+        }
+    }
+}

@@ -1,0 +1,40 @@
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 10vh;
+  margin: auto;
+  background: #589983;
+}
+
+header .nav-items {
+  width: 100px;
+  height: 30px;
+  border: 2px solid black;
+  text-align: center;
+  margin: auto;
+}
+
+header .btn {
+  width: 100px;
+  height: 30px;
+  border-radius: 50px;
+  background: purple;
+}
+
+header .btn:hover {
+  zoom: 200%;
+}
+/*# sourceMappingURL=styles.css.map */
